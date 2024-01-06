@@ -119,6 +119,10 @@ main {
     margin: 0px auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About section styles */
 .about {
     padding: 130px;
@@ -158,9 +162,38 @@ main {
     padding: 0px 150px 50px;
 }
 
+/* What i do description */
 .skill-container {
     border-radius: 5px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 30px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    display: flex;
+
+}
+
+.skill-tittle {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* Resume section */
+.resume-column-title {
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+
 }
